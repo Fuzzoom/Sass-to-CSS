@@ -1,18 +1,24 @@
 {
   "name": "sass-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testing out sass",
   "main": "",
   "dependencies": {},
   "devDependencies": {
     "node-sass": "^4.5.2",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "watch": "^1.0.2"
   },
   "scripts": {
     "test": "bla",
     "start": "node index.js",
-    "sass": "node-sass -w scss/ -o css/"
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fuzzoom/testing-sass.git"
+  }
 }
