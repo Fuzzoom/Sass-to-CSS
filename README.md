@@ -1,7 +1,7 @@
 # testing-sass
 Convert Sass files to CSS
 
-(**requires**: `node.js`, and npm packages: `node-sass`, `watch`)
+(**requires**: `node.js` and `npm`)
 
 
 With this package I can automatically convert my Sass files to CSS files. 
