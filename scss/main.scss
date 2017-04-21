@@ -1,6 +1,9 @@
 $primaryColor: #eeffcc;
+$color: #eeffcc;
+$size: 12px;
 
 body {
     background: $primaryColor;
-    color: black;
+    color: $color;
+    font-size: $size
 }

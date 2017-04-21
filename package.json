@@ -12,8 +12,8 @@
   "scripts": {
     "test": "bla",
     "start": "node index.js",
-    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "sass": "node-sass -o css scss",
+    "watch:css": "watch \"npm run sass\" scss"
   },
   "author": "",
   "license": "ISC",
