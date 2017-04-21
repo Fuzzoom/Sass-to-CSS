@@ -3,7 +3,7 @@ Testing out Sass
 (requires: node.js, and npm packages: node-sass, watch)
 
 
-With this package I can convert my Sass files to CSS files. 
+With this package I can automatically convert my Sass files to CSS files. 
 
 
 I start by running `npm run watch:sass`. 
