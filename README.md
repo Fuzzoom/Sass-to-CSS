@@ -1,4 +1,4 @@
-# testing-sass
+# Sass-to-CSS
 Convert Sass files to CSS
 
 (**requires**: `node.js` and `npm`)
